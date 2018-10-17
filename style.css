@@ -1,3 +1,27 @@
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 70px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#page-content {
+  margin-left: 120px;
+}
+
 h1 {
   color: green;
   font-weight: 400;
@@ -13,7 +37,7 @@ body {
   line-height: 1.5;
 }
 
-.container {
+.container-fluid {
   width: 500px;
   margin: 0 auto;
   padding: 20px;
@@ -76,7 +100,6 @@ h3 {
 p {
   font-size: 13px;
   text-decoration: none;
-  text-align: justify;
 }
 
 a {
